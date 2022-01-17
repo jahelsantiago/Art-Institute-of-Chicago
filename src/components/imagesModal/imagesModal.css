@@ -1,0 +1,29 @@
+.imagesModal-container{
+    width: 100%;
+    height: 100%;
+    background-color: #504a4a;
+    padding: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal-title{
+    font-size: 1.6rem;
+    background-color: #fff5eb;
+    text-align: right;
+    transform: translateX(-16px);
+    border-left: 10px solid black;
+}
+
+.modal-artist{
+    text-align: right;
+    color: #f7eee4;
+    margin: 1em;
+    font-style: italic;
+}
+
+
+.modal-image > img{
+    max-width: 100%;
+}
+
